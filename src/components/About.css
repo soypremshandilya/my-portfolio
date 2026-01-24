@@ -1,0 +1,46 @@
+.about-section {
+    background-color: var(--bg-primary);
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-text p {
+    margin-bottom: 1.5rem;
+    color: var(--text-muted);
+}
+
+.lead {
+    font-size: 1.3rem;
+    color: var(--text-main) !important;
+}
+
+.skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 2rem 0;
+}
+
+.skills-tags span {
+    background-color: var(--bg-card);
+    color: var(--accent);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.download-btn {
+    margin-top: 1rem;
+    display: inline-flex;
+    align-items: center;
+}

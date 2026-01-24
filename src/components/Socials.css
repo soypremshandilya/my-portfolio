@@ -1,0 +1,79 @@
+.socials-section {
+    padding-bottom: 40px;
+}
+
+.social-text {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 3rem;
+    color: var(--text-muted);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    font-size: 2rem;
+    color: var(--text-muted);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.social-link:hover {
+    transform: translateY(-8px) scale(1.1);
+    color: white;
+}
+
+/* Specific Colors on Hover */
+.social-link.linkedin:hover {
+    background-color: #0077b5;
+    border-color: #0077b5;
+}
+
+.social-link.github:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
+.social-link.facebook:hover {
+    background-color: #1877f2;
+    border-color: #1877f2;
+}
+
+.social-link.instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    border-color: transparent;
+}
+
+.social-link.leetcode:hover {
+    background-color: #ffa116;
+    border-color: #ffa116;
+}
+
+.social-link.codeforces:hover {
+    background-color: #1f8dd6;
+    border-color: #1f8dd6;
+}
+
+@media (max-width: 768px) {
+    .social-icons {
+        gap: 1rem;
+    }
+
+    .social-link {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+}
