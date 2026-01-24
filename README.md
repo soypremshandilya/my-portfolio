@@ -29,7 +29,7 @@ The website features a clean UI, smooth animations, and a responsive layout, hig
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/soypremshandilya/portfolio.git
+git clone https://github.com/soypremshandilya/my-portfolio.git
 cd portfolio
 npm install
 npm run dev
