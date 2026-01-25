@@ -14,9 +14,9 @@ const projectsData = [
     },
     {
         id: 2,
-        title: 'StoryBud',
-        description: 'AI-powered audiobook generator converting PDF/EPUB to high-quality audio using VoxCPM and semantic chunking with a microservices architecture.',
-        tags: ['Python', 'AI/ML', 'TTS', 'VoxCPM', 'Microservices', 'React'],
+        title: 'Audiobook Generator',
+        description: 'Full-stack AI audiobook platform converting PDFs into natural-sounding speech using Neural TTS and React, featuring real-time processing and a scalable RESTful architecture.',
+        tags: ['React', 'Python', 'Flask', 'Neural TTS', 'REST API', 'Render'],
         image: '/projects/storybud-audiobook.png',
         link: 'https://audiobook-ui.onrender.com/',
         github: 'https://github.com/soypremshandilya/StoryBud'
