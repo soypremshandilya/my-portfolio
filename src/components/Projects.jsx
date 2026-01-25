@@ -18,7 +18,7 @@ const projectsData = [
         description: 'AI-powered audiobook generator converting PDF/EPUB to high-quality audio using VoxCPM and semantic chunking with a microservices architecture.',
         tags: ['Python', 'AI/ML', 'TTS', 'VoxCPM', 'Microservices', 'React'],
         image: '/projects/storybud-audiobook.png',
-        link: 'https://github.com/soypremshandilya/StoryBud',
+        link: 'https://audiobook-ui.onrender.com/',
         github: 'https://github.com/soypremshandilya/StoryBud'
     },
     {
@@ -57,7 +57,7 @@ const Projects = () => {
                                 <div className="card-tags">
                                     {project.tags.map(tag => <span key={tag}>{tag}</span>)}
                                 </div>
-                                <a href={project.link} className="link-text">Live Preview &rarr;</a>
+                                <a href={project.link} target="_blank" rel="noopener noreferrer" className="link-text">Live Preview &rarr;</a>
                             </div>
                         </div>
                     ))}
