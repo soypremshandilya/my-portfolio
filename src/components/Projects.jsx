@@ -19,7 +19,7 @@ const projectsData = [
         tags: ['React', 'Python', 'Flask', 'Neural TTS', 'REST API', 'Render'],
         image: '/projects/storybud-audiobook.png',
         link: 'https://audiobook-ui.onrender.com/',
-        github: 'https://github.com/soypremshandilya/StoryBud'
+        github: 'https://github.com/soypremshandilya/audiobook'
     },
     {
         id: 3,
