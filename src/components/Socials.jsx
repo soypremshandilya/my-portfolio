@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaKaggle } from 'react-icons/fa';
 import { SiLeetcode, SiCodeforces } from 'react-icons/si';
 import './Socials.css';
 
@@ -7,6 +7,7 @@ const Socials = () => {
     const socialLinks = [
         { name: 'LinkedIn', icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/premshandilya/', class: 'linkedin' },
         { name: 'GitHub', icon: <FaGithub />, url: 'https://github.com/soypremshandilya', class: 'github' },
+        { name: 'Kaggle', icon: <FaKaggle />, url: 'https://www.kaggle.com/iampremshandilya', class: 'kaggle' },
         { name: 'LeetCode', icon: <SiLeetcode />, url: 'https://leetcode.com/u/premshandilya/', class: 'leetcode' },
         { name: 'Codeforces', icon: <SiCodeforces />, url: 'https://codeforces.com/profile/iampremshandilya', class: 'codeforces' },
         { name: 'Facebook', icon: <FaFacebook />, url: 'https://www.facebook.com/iamPremshandilya/', class: 'facebook' },
